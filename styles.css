@@ -1,0 +1,121 @@
+#main-content {margin-left: 60px; width: 780px; float: left;}
+#news {margin-left: 20px; float: left; width: 180px;}
+#footer {float: left; width: 100%;}
+th,td{border:1px solid black;}
+
+.starter-template {padding: 3rem 1.5rem;text-align: center;}
+.navbar{position:relative;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;padding:.5rem 1rem}
+.nav-bg-dark{background-color:##fafafa!important}
+.navbar-dark .navbar-nav .nav-link{color:rgba(0,0,0,.65)}
+.navbar-dark .navbar-nav .nav-link.disabled{color:rgba(0,0,0,.20)}
+.navbar-dark .navbar-nav .active>.nav-link{color:rgba(0,0,0,.85)}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {color:rgba(0,0,0,.85);}
+.navbar-dark .navbar-nav .nav-link.disabled:focus, .navbar-dark .navbar-nav .nav-link.disabled:hover {color:rgba(0,0,0,.20);}
+.navbar-dark .navbar-toggler {color: rgba(0, 0, 0,.85); border-color: rgba(0, 0, 0,.85); background-color:rgba(0,0,0,.85)}
+
+.dropdown-item{display:block;width:100%;padding:.25rem 1.5rem;clear:both;font-weight:400;color:#212529;text-align:inherit;white-space:nowrap;background:0 0;border:0}
+.dropdown-item:focus,.dropdown-item:hover{color:#16181b;text-decoration:none;background-color:rgba(0,0,0,.10)}
+.dropdown-item.active,.dropdown-item:active{color:#fff;text-decoration:none;background-color:#007bff}
+.dropdown-item.disabled,.dropdown-item:disabled{color:#868e96;background-color:transparent}
+
+.dropdown-item.active,.dropdown-item:active{color:#fff;text-decoration:none;background-color:rgba(0,0,0,.75)}
+
+.slider {width: 100%;}
+.slider-wrapper {width: 100%;height: 350px;position: relative;}
+.slide {float: left;position: absolute;width: 100%;height: 100%;opacity: 0;transition: opacity 3s linear;}
+.slider-wrapper > .slide:first-child {opacity: 1;}
+
+footer { background-color:#121212; min-height:300px; font-family: 'Open Sans', sans-serif; left: 0; bottom: 0; width: 100%; }
+.footerleft { margin-top:25px; margin-left:35px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+.paddingtop-bottom {  margin-top:25px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:#ff670f; }
+.heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+.post p { font-size:12px; color:#FFF; line-height:20px;}
+.post p span { display:block; color:#8f8f8f;}
+.bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+.bottom_ul li { float:left; line-height:40px;}
+.bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+.bottom_ul li a { color:#FFF;  font-size:12px;}
+
+hr {border-top: 1px solid #d9d9d9;}
+.verticalLine {border-right: thin solid #d9d9d9; top: 50px;}
+.horizontalLine {border-bottom: thin solid #d9d9d9;}
+.read_more {float: right; padding-right: 75px;}
+.submission_link {color:#1919ff;}
+
+input[type=text] {width: 130px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;font-size: 16px;background-color: white;background-image: url('pictures/searchicon.png');background-position: 10px 10px; background-repeat: no-repeat;padding: 10px 10px 10px 35px;-webkit-transition: width 0.4s ease-in-out;transition: width 0.4s ease-in-out;}
+input[type=text]:focus {width: 100%;}
+
+dl {counter-reset: li;list-style: none;*list-style: decimal;font: 15px 'trebuchet MS', 'lucida sans';padding: 0;margin-bottom: 4em;margin-right: 4em;text-shadow: 0 1px 0 rgba(255,255,255,.5);}
+dl dl {margin: 0 0 0 2em;}
+.dates_list a{position: relative;display: block;padding: .4em .4em .4em .8em;*padding: .4em;margin: .5em 0 .5em 2.5em;background: #ddd;color: #444;text-decoration: none;transition: all .3s ease-out;}
+.dates_list a:hover{background: #eee;}   
+.dates_list a:before{content: counter(li);counter-increment: li;position: absolute; left: -2.5em;top: 50%;margin-top: -1em;background: rgba(0, 0, 0,.65);height: 2em;width: 2em;line-height: 2em;text-align: center;font-weight: bold;color: #fff;}
+.dates_list a:after{position: absolute; content: '';border: .5em solid transparent;left: -1em;top: 50%;margin-top: -.5em;transition: all .3s ease-out;}
+.dates_list a:hover:after{left: -.5em;border-left-color: rgba(0, 0, 0,.65);       }    
+
+
+ml {list-style: none;*list-style: decimal;font: 15px 'trebuchet MS', 'lucida sans';margin-bottom: 4em;margin-right: 4em;text-shadow: 0 1px 0 rgba(255,255,255,.5);}
+ml ml {margin: 0 0 0 2em;}
+.menu_list a{position: relative;display: block;padding: .4em .4em .4em .8em;*padding: .4em;margin: .5em 0 .5em 0em;background: #ddd;color: #444;text-decoration: none;transition: all .3s ease-out;}
+.menu_list a:hover{background: #eee;}   
+.menu_list_dates{margin-right: 4em;} 
+.menu_list span{color:red;}    
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text_cu], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgba(0, 0, 0,.65);
+    color: white;
+    padding: 12px 20px;
+    width: 100%; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {background-color:rgba(0, 0, 0,.85);}
+
+.container_contact_us {border-radius: 5px;padding: 20px;}
+.error_contact_us {color:#FF0000;}
+.sent_contact_us {color:#008000;}
+.ukmap {padding-left: 100px;}
+#map {height: 400px;width: 100%;}
+
+
+
+/*--------------------
+Screen changed when res changes
+--------------------*/
+  @media screen and (max-width: 768px) {
+    .slider, .ukmap, .google_map {display: none;}
+	.footer-ul li, h6, p {text-align: center;}
+	.verticalLine {border-right: thin solid #ffffff;}
+	.footerleft { margin-top:25px; margin-left:0px; padding-right: 15px;padding-left: 15px;}
+	.read_more {float: none; padding-right: 0px; text-align: center;}
+	.submission_link {text-align: center; width: 300px; margin:  0px;}
+	#main-content {margin-left:  5%; margin-right: 5%; width: 90%; text-align: center;}
+	#news {margin-left:  10%; margin-right: 10%; width: 80%; text-align: center; }
+}
+
+
