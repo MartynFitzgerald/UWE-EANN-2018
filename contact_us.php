@@ -3,7 +3,7 @@
 <head>
   
 <?php
-$fname = $lname = $email = $message = $error = "";
+$fname = $lname = $email = $message = $error = $emailsent = "";
 $email_to="Elias.Pimenidis@uwe.ac.uk";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
